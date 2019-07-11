@@ -10,10 +10,11 @@
         android:id="@+id/desc_pim00g"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+
         android:layout_alignParentTop="true"
         android:layout_marginStart="137dp"
         android:layout_marginTop="39dp"
+        android:layout_marginLeft="137dp"
         tools:srcCompat="@tools:sample/avatars[0]" />
 
     <TextView
@@ -21,19 +22,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:singleLine="false"
         android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
         android:layout_marginBottom="118dp"
         android:text="TextView"
         android:textSize="15sp" />
 
-    <TextView
-        android:id="@+id/desc_pdesc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="458dp"
-        android:text="TextView" />
+
 
     <TextView
         android:id="@+id/type"
@@ -74,4 +70,16 @@
         android:layout_marginEnd="-170dp"
         android:layout_marginBottom="227dp"
         android:text="TextView" />
+
+    <TextView
+        android:id="@+id/desc_pdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="458dp"
+        android:text="TextView" />
+
+
 </RelativeLayout>
